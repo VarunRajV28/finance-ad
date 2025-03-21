@@ -27,7 +27,7 @@ export default function PortfolioSummary() {
           <select className="rounded-md border-gray-300 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white">
             <option>1M</option>
             <option>3M</option>
-            <option selected>1Y</option>
+            <option>1Y</option>
             <option>All</option>
           </select>
         </div>

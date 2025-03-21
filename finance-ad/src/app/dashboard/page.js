@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import PortfolioSummary from '@/components/dashboard/PortfolioSummary';
-import MarketOverview from '@/components/dashboard/MarketOverview';
-import RecentAlerts from '@/components/dashboard/RecentAlerts';
+// import MarketOverview from '@/components/dashboard/MarketOverview';
+// import RecentAlerts from '@/components/dashboard/RecentAlerts';
 import WatchlistPreview from '@/components/dashboard/WatchlistPreview';
-import QuickActions from '@/components/dashboard/QuickActions';
+// import QuickActions from '@/components/dashboard/QuickActions';
 
 export default function Dashboard() {
   return (
@@ -59,7 +59,7 @@ export default function Dashboard() {
       {/* Portfolio summary and market overview */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         <PortfolioSummary />
-        <MarketOverview />
+        {/*<MarketOverview />*/}
       </div>
       
       {/* Watchlist and alerts */}
@@ -68,12 +68,12 @@ export default function Dashboard() {
           <WatchlistPreview />
         </div>
         <div>
-          <RecentAlerts />
+          {/*<RecentAlerts />*/}
         </div>
       </div>
       
       {/* Quick actions */}
-      <QuickActions />
+      {/*<QuickActions />*/}
     </div>
   );
 }
